@@ -4,9 +4,9 @@
  const app = express() ; 
 
 
- const coursesRoutes = require('./src/routes/courseRoutes') ; 
- const {errorHandler,notfound} = require('./src/middlewares/errorHndler')
- const connectiondb= require('./src/config/db');
+ const coursesRoutes = require('../src/routes/courseRoutes') ; 
+ const {errorHandler,notfound} = require('../src/middlewares/errorHndler')
+ const connectiondb= require('../src/config/db');
  dotenv.config();
 
  app.use(express.json()) ;
