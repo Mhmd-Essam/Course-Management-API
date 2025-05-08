@@ -54,6 +54,7 @@ price (number): The price of the course (required).
 Example Request Body:
 
 json
+
 {
   "title": "Node.js for Beginners",
   "description": "Learn Node.js from scratch.",
@@ -61,6 +62,8 @@ json
   "startDate": "2025-05-10",
   "endDate": "2025-06-10"
 }
+
+
 GET /courses
 Retrieve a list of all courses.
 
