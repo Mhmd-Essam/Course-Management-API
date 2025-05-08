@@ -17,32 +17,21 @@ License
 Installation
 Clone this repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/Mhmd-Essam/Course-Management-API.git
+https://github.com/Mhmd-Essam/Course-Management-API/tree/master
 Navigate to the project directory:
 
-bash
-Copy
-Edit
+
 cd Dashboard-Mangement-task
 Install the dependencies:
 
-bash
-Copy
-Edit
 npm install
 Create a .env file in the root directory and add your environment variables (details below).
 
 Usage
 Run the development server using Nodemon:
 
-bash
-Copy
-Edit
 npm run dev
-The server will start and be accessible at http://localhost:5000.
+The server will start and be accessible at http://localhost:5006.
 
 You can now use tools like Postman or Insomnia to interact with the API.
 
@@ -65,8 +54,6 @@ price (number): The price of the course (required).
 Example Request Body:
 
 json
-Copy
-Edit
 {
   "title": "Node.js for Beginners",
   "description": "Learn Node.js from scratch.",
@@ -108,7 +95,7 @@ Environment Variables
 The project uses environment variables for configuration. Create a .env file in the root directory and add the following:
 
 
-PORT=5000
+PORT=5006
 MONGODB_URI=mongodb://yourMongoDBURI
 PORT: The port the server should listen on.
 
