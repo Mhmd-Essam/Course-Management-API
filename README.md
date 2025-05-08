@@ -20,9 +20,11 @@ Navigate to the project directory:
 
 
 cd Dashboard-Mangement-task
+
 Install the dependencies:
 
 npm install
+
 Create a .env file in the root directory and add your environment variables (details below).
 
 Usage
