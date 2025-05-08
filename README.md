@@ -70,6 +70,9 @@ Retrieve a list of all courses.
 GET /courses/:id
 Retrieve a course by its ID.
 
+PUT /courses/:id
+Update a course by its ID.
+
 DELETE /courses/:id
 Delete a course by its ID.
 
