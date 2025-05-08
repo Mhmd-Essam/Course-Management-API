@@ -12,8 +12,6 @@ Dependencies
 
 Environment Variables
 
-License
-
 Installation
 Clone this repository:
 
